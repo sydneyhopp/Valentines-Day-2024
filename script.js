@@ -14,7 +14,7 @@ let numberOfTimesClicked = 0;
 const yesButton = document.getElementById("yes-button");
 const noButton = document.getElementById("no-button");
 const gif = document.getElementById("gif-container");
-const mainTest = document.getElementById("main-text");
+const mainText = document.getElementById("main-text");
 
 noButton.addEventListener("click", () => {
     numberOfTimesClicked++;
@@ -35,6 +35,6 @@ yesButton.addEventListener("click", ()=> {
     noButton.style.display = "none";
     gif.src = "https://media1.tenor.com/m/pZiEFB4vwXsAAAAC/cat-funny.gif";
     mainText.textContent = "yeahhhhh that's right";
-    
+
 });
 
