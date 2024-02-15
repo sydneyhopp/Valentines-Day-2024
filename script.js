@@ -35,5 +35,6 @@ yesButton.addEventListener("click", ()=> {
     noButton.style.display = "none";
     gif.src = "https://media1.tenor.com/m/pZiEFB4vwXsAAAAC/cat-funny.gif";
     mainText.textContent = "yeahhhhh that's right";
+    
 });
 
